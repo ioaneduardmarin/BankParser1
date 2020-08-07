@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankParser/1.0.0": {
+        "dependencies": {
+          "SharpMt940Lib.Core": "1.0.2"
+        },
+        "runtime": {
+          "BankParser.dll": {}
+        }
+      },
+      "SharpMt940Lib.Core/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/SharpMt940Lib.Core.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpMt940Lib.Core/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z1Rw6Jb2sgVtQfYJZ/tzQJFtDhw6k5hWuFbu944nCN9S763X1FaH3Shm2Mv/h4OJ5ah2MUt8OOqorzwYReqt7Q==",
+      "path": "sharpmt940lib.core/1.0.2",
+      "hashPath": "sharpmt940lib.core.1.0.2.nupkg.sha512"
+    }
+  }
+}
